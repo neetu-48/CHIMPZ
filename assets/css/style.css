@@ -58,28 +58,24 @@
 
 
 
-.pd-29 {
-    padding: 29px;
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.gap-40 {
-    gap: 40px;
+.gap-60 {
+    gap: 60px;
 }
 
 header {
     background: linear-gradient(180deg, #000000 36.19%, rgba(0, 0, 0, 0) 100%);
-
+    padding: 30px;
+    width: 100%;
 }
 
 .box-footer {
     background: linear-gradient(180deg, #030D01 0%, rgba(3, 13, 1, 0) 100%);
-    height: 100%;
-    top: 0px;
-    gap: 0px;
-    opacity: 0px;
-
-
-
+    padding-bottom: 50px;
 }
 
 
@@ -160,25 +156,29 @@ h3 {
 .min-vh-100 {
     min-height: 100vh;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
+
 .para-1 {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px; 
+    line-height: 24px;
     color: rgba(255, 255, 255, 1);
     text-shadow: 2px 2px 8px rgba(255, 255, 255, 1);
 }
-.flex-grow-1{
+
+.flex-grow-1 {
     flex-grow: 1;
 }
+
 .para-2 {
     font-family: "Fira Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 24px;
     color: rgba(255, 255, 255, 1);
     text-shadow: 2px 2px 8px rgba(255, 255, 255, 1);
 }
@@ -219,6 +219,10 @@ h3 {
 
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .z-index {
     z-index: 1;
 }
@@ -227,128 +231,6 @@ h3 {
     max-width: 585px;
 }
 
-
-
-/*sign in
-.sign-in {
-    font-family: "Poppins", sans-serif;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 43.2px;
-    text-align: left;
-    color: rgba(3, 7, 18, 1);
-}
-
-.change-p {
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
-    animation-duration: 0ms;
-    color: rgba(98, 101, 109, 1);
-
-}
-
-input[type="email-box"] {
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    margin-bottom: 10px;
-    width: 340px;
-    color: rgba(145, 151, 166, 1);
-    padding: 10px 16px 10px 16px;
-    border-radius: 6px;
-    background: rgba(245, 248, 255, 1);
-    border: 1px solid rgba(228, 234, 247, 1);
-}
-
-input[type="password-box"] {
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    width: 340px;
-    margin-bottom: 10px;
-    text-align: left;
-    color: rgba(145, 151, 166, 1);
-    padding: 10px 16px 10px 16px;
-    border-radius: 6px;
-    background: rgba(245, 248, 255, 1);
-    border: 1px solid rgba(228, 234, 247, 1)
-}
-
-.reme {
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
-    color: rgba(98, 101, 109, 1);
-}
-
-.sign {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
-    width: 340px;
-    padding: 14px 32px 14px 32px;
-    border-radius: 50px;
-    background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
-    animation-duration: 0ms;
-    border:0;
-
-}
-.position-relative{
-    position: relative;
-}
-.text {
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: center;
-    color: rgba(145, 151, 166, 1);
-
-}
-.icon-1{
-    position: absolute;
-    top: 0px;
-    right: 550px;
-}
-.icon-2{
-    position: absolute;
-    top: 200px;
-    right: 550px;
-}
-.icon-3{
-    position: absolute;
-    top: 70px;
-    right: 550px;
-
-    
-}
-.icon-4{
-    position: absolute;
-    bottom: 0px;
-    right: 550px;
-    
-}
-.social{
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
-    color: rgba(98, 101, 109, 1);
-    border: 1px solid rgba(201, 207, 219, 1);
-}
-    */
 @media(min-width:992px) {
     .col-lg-4 {
         width: 33.33%;
@@ -362,6 +244,7 @@ input[type="password-box"] {
         padding-right: 12px;
     }
 
+
     .col-lg-6 {
         width: 50%;
         padding-left: 12px;
@@ -373,11 +256,9 @@ input[type="password-box"] {
         padding-left: 12px;
         padding-right: 12px;
     }
-
-
 }
 
-@media(max-width:768px) {
+@media(min-width:768px) {
     .col-md-5 {
         width: 41.66%;
         padding-left: 12px;
@@ -396,9 +277,6 @@ input[type="password-box"] {
         padding-right: 12px;
     }
 
-    .flex-column {
-        flex-direction: column-reverse;
-    }
 }
 
 @media(min-width:576px) {
@@ -423,8 +301,14 @@ input[type="password-box"] {
     .mb-sm-0 {
         margin-bottom: 0;
     }
+
 }
 
+@media (max-width:992px) {
+    .columns {
+        flex-direction: column-reverse;
+    }
+}
 
 @media (max-width:992px) {
     label[for="list-1"] {
@@ -467,6 +351,7 @@ input[type="password-box"] {
         transform: rotate(-63deg);
         transform-origin: left;
     }
+
 
     .ul-color {
 
