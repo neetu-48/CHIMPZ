@@ -63,13 +63,13 @@
     padding-bottom: 30px;
 }
 
-.gap-60 {
-    gap: 60px;
+.gap-50 {
+    gap: 50px;
 }
 
 header {
     background: linear-gradient(180deg, #000000 36.19%, rgba(0, 0, 0, 0) 100%);
-    padding: 30px;
+    padding: 20px;
     width: 100%;
 }
 
